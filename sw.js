@@ -1,6 +1,6 @@
 // Only the application shell is cached. No financial data is sent or cached here.
 const prefix = 'moneyflow-shell:' + self.registration.scope + ':';
-const cacheName = prefix + '2.2.1';
+const cacheName = prefix + '2.2.2';
 const base = new URL(self.registration.scope);
 const files = ['index.html','pwa.js','manifest.webmanifest','icon-192.png','icon-512.png','apple-touch-icon.png'].map(p => new URL(p,base).href);
 const entry = files[0];
