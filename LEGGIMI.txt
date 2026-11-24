@@ -1,0 +1,14 @@
+MONEYFLOW 2.2.1 — IPHONE EDITION
+
+1. Crea un account gratuito su github.com e un nuovo repository pubblico chiamato moneyflow.
+2. Estrai lo ZIP. Carica i file della cartella estratta nella radice del repository (Add file > Upload files), non lo ZIP. index.html deve essere visibile nella pagina principale. Il file .nojekyll, se nascosto, si può creare con Add file > Create new file; se omesso questi file statici normalmente funzionano comunque.
+3. Commit changes. Settings > Pages > Build and deployment > Deploy from a branch > main > / (root) > Save. Attendi che Pages mostri l’indirizzo HTTPS effettivo; aprilo prima sul PC per verificare.
+4. Su iPhone apri l’indirizzo in Safari. Condividi > Aggiungi alla schermata Home > Apri come app web (se presente) > Aggiungi. Apri dalla nuova icona mentre sei online.
+5. Crea un archivio di prova. In Impostazioni controlla lo stato offline, salva un movimento, attendi la conferma di salvataggio, chiudi e riapri. Attiva modalità aereo e ripeti. Esporta e prova a reimportare un backup cifrato prima di usare dati reali.
+6. Se possiedi dati nella versione precedente: esporta un backup cifrato e importalo dall’app Home. Non caricare il backup su GitHub. Ogni installazione conserva un archivio indipendente. La memoria locale può essere cancellata: conserva backup fuori dall’app.
+7. Per le notifiche, crea promemoria ricorrenti nell’app Promemoria di iOS oppure importa gli eventi .ics dalla sezione Abitudini. La PWA non programma notifiche native ad app chiusa.
+
+GitHub ospita solo il codice statico, che è pubblico. Non sono presenti servizi di sincronizzazione o invio dati. Proteggi l’account GitHub, perché eventuali modifiche al codice pubblicato potrebbero compromettere la sicurezza dell’app. Per aggiornare, sostituisci i file con una nuova release completa e mantieni lo stesso indirizzo. Esegui prima un backup; chiudi tutte le finestre MoneyFlow per attivare il nuovo service worker. Non cancellare i dati del sito per aggiornare.
+
+Guida ufficiale GitHub: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+Guida Apple: https://support.apple.com/guide/iphone/bookmark-a-website-iph42ab2f3a7/ios
